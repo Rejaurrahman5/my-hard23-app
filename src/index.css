@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Sen:wght@400..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --font-grif:  "Griffy", system-ui;
+    --font-mon:  "Sen", sans-serif;
+}
+
+.swiper-pagination-bullet{
+    background-color: rgba(255, 255, 0, 0.5) !important;
+}
+.swiper-pagination-bullet{
+    background-color: #ffcc15 !important;
+}
+
+html, body, #root{
+    @apply bg-black text-white min-h-screen
+}
